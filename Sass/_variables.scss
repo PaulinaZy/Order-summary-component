@@ -1,0 +1,23 @@
+//FONT
+$font: 'Red Hat Display',
+sans-serif;
+
+//COLORS
+$pale-blue: #e0e8ff;
+$lighter-pale-blue: #edf0fb;
+$blue: #3829e0;
+$hover-color: #766cf1;
+$whitish:#f5f7ff;
+$desaturated-blue:#7280a7;
+$dark-blue: #1f2f56;
+
+//FONT SIZE
+$p-size: 0.93rem; //15px
+$h1-size: 1.75rem; //28px
+
+//BREAKPOINT
+@mixin breakpoint {
+    @media (min-width: 680px) {
+        @content;
+    }
+}
